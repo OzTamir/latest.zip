@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RFC 99999: The .ZIP TLD Apocalypse</title>
+    <style>
+        body {
+            font-family: monospace;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.5;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+
+        header {
+            border-bottom: 1px solid #ccc;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+        }
+
+        h1,
+        h2,
+        h3 {
+            font-family: monospace;
+            font-weight: bold;
+        }
+
+        h1 {
+            font-size: 24px;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 18px;
+            margin-top: 25px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+        }
+
+        h3 {
+            font-size: 16px;
+        }
+
+        .meta-info {
+            white-space: pre-line;
+            margin-bottom: 20px;
+        }
+
+        .section {
+            margin-bottom: 15px;
+        }
+
+        .footer {
+            margin-top: 40px;
+            padding-top: 10px;
+            border-top: 1px solid #ccc;
+            font-size: 14px;
+            text-align: center;
+        }
+
+        pre {
+            background-color: #f0f0f0;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+            overflow-x: auto;
+        }
+
+        .warning {
+            background-color: #fff8dc;
+            border-left: 4px solid #ffcc00;
+            padding: 10px;
+            margin: 15px 0;
+        }
+
+        a {
+            color: #0366d6;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>.ZIP Domains - Who The Fuck Thought This Was a Good Idea?</h1>
+        <div class="meta-info">
+            Category: Facepalm
+            Status: SERIOUSLY?!
+            Published: When Bad Ideas Won
+            Author: Captain Hindsight
+        </div>
+    </header>
+
+    <section class="section">
+        <h2>1. Abstract</h2>
+        <p>
+            Whoever thought .ZIP domains were a good idea probably also thinks USB always goes in right the first time.
+        </p>
+    </section>
+
+    <section class="section">
+        <h2>2. Introduction</h2>
+        <p>
+            DNS: "Let's avoid TLDs that match file extensions."<br>
+            ICANN: "Hold my beer. Introducing .ZIP!"
+        </p>
+    </section>
+
+    <section class="section">
+        <h2>3. Security Nightmares</h2>
+
+        <h3>3.1. The "Is It File Or Website?" Game</h3>
+        <p>
+            You say: "Check out important-docs.zip"<br>
+            Normal person hears: "I'm sending you a compressed file"<br>
+            Actual reality: It's a possibly malicious website
+        </p>
+
+        <div class="warning">
+            <strong>NARRATOR:</strong> And that's how Dave from accounting got fired.
+        </div>
+    </section>
+
+    <section class="section">
+        <h2>4. Technical Chaos</h2>
+
+        <pre>
+if (filename.endsWith('.zip')) {
+  downloadAndScan(filename);
+}
+        </pre>
+
+        <p>
+            Every developer who wrote code like this: <em>"Am I a joke to you?"</em>
+        </p>
+
+        <h3>4.1. Legacy Systems</h3>
+        <p>
+            Developer 1: "Our regex filters .zip files for security."<br>
+            Developer 2: "But what about .zip domains?"<br>
+            Developer 1: <em>[thousand-yard stare]</em>
+        </p>
+    </section>
+
+    <section class="section">
+        <h2>5. The Future Is Bleak</h2>
+        <p>
+            Coming soon to a DNS near you:
+        </p>
+        <ul>
+            <li>.EXE - "Click here to visit virus.exe!"</li>
+            <li>.BAT - "Check out my new company at crypto.bat"</li>
+            <li>.SH - "Important banking at secure.sh"</li>
+        </ul>
+    </section>
+
+    <section class="section">
+        <h2>6. Conclusion</h2>
+        <p>
+            .ZIP domains: Where "technically possible" triumphed over "absolutely terrible idea."
+            The internet was a mistake.
+        </p>
+    </section>
+
+    <div class="footer">
+        Made with ❤️ by <a href="https://oztamir.com" target="_blank">Oz</a>
+    </div>
+</body>
+
+</html>
